@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigationBar{
+    display: flex;
+}
+.box{
+    padding: 20px;
+    width:80%;
+    height: 650px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+body{
+    background-color: #BFC8E6;
+}
+.white{
+    background-color: #FFF;
+}
+.searchBox{
+    width: 150px;
+    margin-right: 300px;
+}
+.headerBox{
+    display: flex;
+    margin-left: 170px;
+}
+.avatarBox{
+    width: 50px;
+    margin-left: 30px;
+    border-radius: 50%;
+    width: 10%;
+    overflow: hidden;
+}
+
+.userform{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.hastag{
+    width: 5px;
+    padding: 2px;
+    color: rgb(21, 103, 218);
+    border: 1px solid rgb(21, 103, 218);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.profileBox{
+    background-color: #EEE;
+    padding: 10px;
+    border-radius:10px;
+    display: flex;
+}
+.logoDes{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.quoteHeading{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.rowQuote{
+    justify-content: center;
+    text-align: center;
+}
+.colQuote{
+    color: rgb(7, 177, 177);
+}
+.colQuotemove{
+    color: black;
+}
+
+.colQuotemove:hover{
+    color: rgb(7, 177, 177);
+}
+.colQuoteBox{
+    background-color: #FBFCFF;
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.colQuoteBox:hover{
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+    border:0.5px solid grey;
+}
+.imgQuoteBox{
+    width: 430px;
+    height: 250px;
+}
+.marginBox{
+    margin-left: 10px;
+    padding-top: 5px;
+    opacity: 0.8;
+}
+.marginBox:hover{
+    opacity: 1;
+}
+.containerQuote{
+    margin-top: 100px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+.buttonQuote{
+    background-color: black;
+    width: 100px;
+    height: auto;
+    color: white;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    left: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 1px 2px rgb(255, 255, 255);
+}
+.buttonQuote:hover{
+    color:black;
+    background-color: #eee;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.avatarDes{
+    margin-left:30px;
+    width: 60%;
+    border-radius: 50%;
+}
+.usercol{
+    padding-top:20px;
+}

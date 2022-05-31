@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>enter a</h1>
+    <input type="text" id="a" />
+    <h1>enter b</h1>
+    <input type="text" id="b" />
+    <button onclick="isPrime()">Submit</button>
+    <div id="result"></div>
+    <script defer>
+      let isPrime = () => {
+        let a = document.getElementById("a").value;
+        let b = document.getElementById("b").value;
+        let result = document.getElementById("result");
+        for (i = a; i <= b; i++) {
+          var prime = true;
+
+          for (b = 2; b < a; b++) {
+            if (a % b == 0) {
+              prime = false;
+              break;
+            }
+          }
+          if (prime) {
+            result.insertAdjacentHTML(",", i + ",");
+          }
+        }
+        document.getElementById("results").innerHTML=result;
+      };
+    </script>
+  </body>
+</html>
